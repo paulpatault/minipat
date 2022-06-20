@@ -1,0 +1,8 @@
+(env
+ (dev
+  (flags (:standard -w -27-26-32))))
+
+(executable
+ (name genpat)
+ (promote (until-clean))
+ (libraries ocaml-compiler-libs.common fmt))
